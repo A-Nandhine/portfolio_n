@@ -149,9 +149,9 @@ const Experience = () => {
                     </div>
                     
                     <div className="flex items-center gap-4">
-                      <span className="bg-green-500/20 text-green-400 px-4 py-2 rounded-full font-bold">
+                      {/* <span className="bg-green-500/20 text-green-400 px-4 py-2 rounded-full font-bold">
                         CGPA: 8.0/10
-                      </span>
+                      </span> */}
                       <span className="text-gray-400">Kalavakkam, Chennai</span>
                     </div>
                   </div>
