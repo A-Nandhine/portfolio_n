@@ -314,6 +314,7 @@ const Hero = () => {
               </motion.div>
             </div>
           </motion.div>
+          
 
           {/* Name and Title with Space Effects */}
           <motion.h1 
@@ -346,7 +347,7 @@ const Hero = () => {
             ref={subtitleRef}
             className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed"
           >
-            Computer Science Student & AI Developer 🚀
+            Computer Science Student & Full Stack Developer 🚀
           </p>
 
           {/* Summary */}
