@@ -161,10 +161,16 @@ const Projects = () => {
 
                   {/* Action Buttons */}
                   <div className="flex gap-3">
-                    <button className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 flex-1 justify-center">
-                      <ExternalLink className="w-4 h-4" />
-                      <span>View Details</span>
-                    </button>
+                    <a
+  href="https://github.com/A-Nandhine"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 flex-1 justify-center"
+>
+  <ExternalLink className="w-4 h-4" />
+  <span>View Details</span>
+</a>
+
                   </div>
                 </div>
               </div>
